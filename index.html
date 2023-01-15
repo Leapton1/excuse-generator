@@ -15,9 +15,9 @@ I was busy because:
 <p id="excuse"></p>
 <script>
     
-    nouns=["my dog","my homework","some aliens","Russia","my grandad","my son","a billionare","a random angry stranger","christmas decorations","Boris Johnson","my grandmothers ear trumpet","my fridge",
-           "my foot","Elon Musk","Fiji","a werewolf","An elephant"];
-    verbs=["ate","abducted","declared war on","stole","overanalysed","ran away from","mispronounced","amputated","spent an hour glaring at","had to sing a lullaby to"];
+    nouns=["my dog","my homework","some aliens","Russia","my grandad","my son","a billionare","a random angry stranger","christmas decorations","my grandmothers ear trumpet","my fridge",
+           "my foot","Fiji","a werewolf","An elephant"];
+    verbs=["ate","abducted","declared war on","stole","overanalysed","ran away from","mispronounced","spent an hour glaring at","had to sing a lullaby to"];
     
     function new_excuse(){
         document.getElementById("excuse").innerHTML = nouns[Math.floor(Math.random() * nouns.length)] + " " + verbs[Math.floor(Math.random() * verbs.length)] + " " + nouns[Math.floor(Math.random() * nouns.length)];
